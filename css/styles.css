@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+body {
+  margin: auto; }
+
+#app-container .gitNav {
+  margin-bottom: 0;
+  background: #EEEEEE;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 8px;
+  padding-left: 10px; }
+  #app-container .gitNav span {
+    font-size: 25px; }
+  #app-container .gitNav .srchBar {
+    margin-left: 10px; }
+#app-container .pageContent {
+  width: 70%;
+  margin: auto;
+  padding-top: 50px; }
+  #app-container .pageContent .topTitle {
+    margin-bottom: 30px; }
+  #app-container .pageContent .usrInfo div {
+    border-bottom: 1px solid #DDD; }
+  #app-container .pageContent .usrRepos hr {
+    width: 100%; }
+  #app-container .pageContent .usrRepos .repoStat {
+    padding: 25px 0;
+    text-align: right; }
+    #app-container .pageContent .usrRepos .repoStat * {
+      text-align: right;
+      display: inline-block;
+      padding: 0 5px; }
+
+/*# sourceMappingURL=styles.css.map */
