@@ -6,7 +6,7 @@ var gitUser = 'vicula'
 var apiLink = 'https://api.github.com/users/' + gitUser + '?' + myApiSecret
 var apiLinkRepo = 'https://api.github.com/users/' + gitUser + '/repos?per_page=100&' + myApiSecret
 
-window.location.hash = gitUser
+
 
 
 
